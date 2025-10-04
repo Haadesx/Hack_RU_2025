@@ -1,0 +1,36 @@
+# BioWhisper Backend Requirements
+
+# Web framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+aiohttp==3.9.1
+
+# Audio processing
+librosa==0.10.1
+soundfile==0.12.1
+numpy==1.24.3
+scipy==1.11.4
+
+# Data processing
+pandas==2.1.3
+
+# MediaPipe for pose detection
+mediapipe==0.10.8
+opencv-python==4.8.1.78
+
+# Text-to-Speech
+gTTS==2.4.0
+pyttsx3==2.90
+pydub==0.25.1
+
+# Optional: for audio format conversion
+ffmpeg-python==0.2.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
